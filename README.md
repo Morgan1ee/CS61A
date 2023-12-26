@@ -1,9 +1,8 @@
-Main page: [https://cs61a.org/](url)
+[Main page]([url](https://cs61a.org/))
 
 How to use OK: py ok --local or py ok --score --local
 
-Textbook: [https://www.composingprograms.com/pages/11-getting-started.html](url)
-
+[Textbook]([url](https://www.composingprograms.com/pages/11-getting-started.html))
 
 
 
