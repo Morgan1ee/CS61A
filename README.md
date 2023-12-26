@@ -22,3 +22,9 @@ How to use OK: py ok --local or py ok --score --local
 [61A Fall 2023 Lecture 2-4](https://www.youtube.com/playlist?list=PL6BsET-8jgYWZlcJMOuWFSXKc99cSneEN)
 
 [61A Fall 2022 Lecture 4](https://www.youtube.com/playlist?list=PL6BsET-8jgYXPkVcymimdZgpVMZBB3ToP)
+
+[61A Fall 2023 Lecture 4](https://www.youtube.com/watch?v=FwYgFFL52H4&list=PL6BsET-8jgYUov3wR2bpW7JPgLVa9otTZ&index=2
+)
+
+[61A Fall 2023 Lecture 5](https://www.youtube.com/watch?v=1Y4eemG0hzk&list=PL6BsET-8jgYXOXu9fftGoED1nYMki3ZB7&index=3)
+
