@@ -101,5 +101,36 @@ def double_eights(n):
     False
     """
     "*** YOUR CODE HERE ***"
+    a,result1=0,False
+    while n>0:
+        if n%10==8:
+            n=n//10
+            if n%10==8:
+                result1=True
+                break
+            else:
+                n=n//10
+        n=n//10
+    return result1
+
+''' prev_eight = False
+    while n > 0:
+        last_digit = n % 10
+        if last_digit == 8 and prev_eight:
+            return True
+        elif last_digit == 8:
+            prev_eight = True
+        else:
+            prev_eight = False
+        n = n // 10
+    return False
+
+# Alternate solution
+def double_eights_alt(n):
+    while n:
+        if n % 10 == 8 and n // 10 % 10 == 8:
+            return True
+        n //= 10
+    return False'''
     
 
