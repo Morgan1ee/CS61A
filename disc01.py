@@ -178,12 +178,36 @@ def has_digit(n, k):
     return False
 
 #Q8
+x = 11 % 4
+y = x
+x **= 2
+'''
+Global frame:
+x 3
+y 3
+x 9'''
 
+#Q9
+def double(x):
+    return x * 2
 
+def triple(x):
+    return x * 3
 
+hat = double
+double = triple
+'''Global frame:               
+double - func double(x) [parent = Global] -> o1
+triple - func triple(x) [parent = Global] -> o2
+hat - func double(x) [parent = Global] -> o1
+double - func tripel(x) [parent = Global] -> o2
 
-            
-
+Objects:      
+def double(x):
+    return x * 2
+def triple(x):
+    return x * 3  
+'''
 
 
 
