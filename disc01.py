@@ -72,8 +72,8 @@ def nearest_ten(n):
         return (n//10)*10+10
     else:
         return (n//10)*10
-'''def round_to_nearest_ten(n):
-    return n + (10 - n % 10) if n % 10 >= 5 else n - n % 10
+'''def nearest_ten(n):
+    return (n + 5) // 10 * 10
 '''
 
 #Q4
@@ -142,6 +142,15 @@ def is_prime(n):
     elif n==1:
         return False
     return True
+'''
+if n == 1:
+        return False
+    k = 2
+    while k < n:
+        if n % k == 0:
+            return False
+        k += 1
+    return True'''
 
 #Q7
 def unique_digits(n):
