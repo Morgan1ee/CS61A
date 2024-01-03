@@ -32,26 +32,14 @@ def product(n, term):
     162
     """
     "*** YOUR CODE HERE ***"
-    match term:
-        case 'identity':
-            for i in range (1,n+1):
-                r*=i
-            return r
-
-        case 'square':
-            for i in range (1,n+1):
-                r*=i^2
-            return r
-
-        case 'increment':
-            for i in range (1,n+1):
-                r*=(i+1)
-            return r
-
-        case 'triple':
-            for i in range (1,n+1):
-                r*=3*i
-            return r
+    r=1
+    for i in range(1,n+1):
+        r*=term(i)
+    return r
+'''prod, k = 1, 1
+    while k <= n:
+        prod, k = term(k) * prod, k + 1
+    return prod'''
         
 
 
